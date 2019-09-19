@@ -1,0 +1,7 @@
+#ignore the datafile
+NoMoreSilence_ProjectData.tsv
+
+#ignore the .ipynb checkpoints folder
+.ipynb_checkpoints/
+
+
