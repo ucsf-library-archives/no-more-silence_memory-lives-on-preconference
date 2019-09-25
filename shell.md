@@ -62,7 +62,9 @@ Again you will notice that the shell does not return anything when you run the c
 *One final thing to note: if you are having trouble with a command, use the help flag to get it to give you some information about how it's supposed to be used. For almost every command, this can be done by adding either '-h' or '--help' after the command itself. So for mkdir this would look like:*
 
 `$ mkdir --help`
+
 *-or-*
+
 `$ mkdir -h`
 
 ### Opening a new jupyter notebook from the command line
