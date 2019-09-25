@@ -10,3 +10,4 @@ If you are on a windows computer, you will likely be using GitBash, which you do
 If you are on a mac computer, you can either open your applications folder and navigate to the "Utilities" folder and find Terminal in that folder, or you can press command+spacebar to open Spotlight and then type "terminal" into the search bar.
 
 Either way, when you open it up you will get something that looks like this (though likely with different colors)
+![Bash command prompt](assets/bash_prompt.jpg)
