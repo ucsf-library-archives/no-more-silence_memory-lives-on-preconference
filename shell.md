@@ -59,4 +59,30 @@ Just as a final topic on the functionality of the shell, if you hadn't already m
 
 Again you will notice that the shell does not return anything when you run the command, but if you `$ ls` to see what's on your Desktop you will see that the new folder is there.
 
+*One final thing to note: if you are having trouble with a command, use the help flag to get it to give you some information about how it's supposed to be used. For almost every command, this can be done by adding either '-h' or '--help' after the command itself. So for mkdir this would look like:*
+
+`$ mkdir --help`
+*-or-*
+`$ mkdir -h`
+
 ### Opening a new jupyter notebook from the command line
+
+Now that we've learned some commands in the shell, we'll combine them all to open a jupyter notebook, where we'll be typing our python code. We taught you all this because you *must* use a command to open a jupyter notebook, so we want you to remember how to do it!
+
+We want to be in the folder where we'll be working, which in my case is `/c/Users/cmacquarie/Desktop/NoMoreSilence`. It will probably be similar for you, but whatever it is, navigate into it using the cd command on the terminal. For me, this looks like this (I'm using the absolute path here -- you can type any location into the cd command and it will take you right there!):
+
+`$ cd /c/Users/cmacquarie/Desktop/NoMoreSilence`
+
+This should also be the folder where the NoMoreSilence_ProjectData.tsv file you downloaded is located. If it's not there yet, put it there now.
+
+And finally, to begin a new notebook server and open a notebook type the following command into the prompt and hit enter, making sure that you are located in the working folder for this workshop:
+
+`$ jupyter notebook`
+
+A bunch of text will start to appear after the command prompt, which we won't need to worry about unless your notebook doesn't open in a web-browser automatically. You may notice though, that it contains some instructions about your notebook server, how to use it, and what it's doing.
+
+At this point, a web-browser window should open automatically. If it doesn't, ask a helper for help or raise your hand. When it does open, it should look like this:
+
+![Jupyter notebook home page in a web browser](assets/jupyter_home.jpg)
+
+On the right-hand side of the page, click the "New" button with a dropdown arrow (circled in red above), and select "Python 3" under the "notebook" section. This will open up a new python notebook in another browser tab, and we will begin the coding section.
