@@ -1,0 +1,10 @@
+langdetect
+matplotlib
+nltk
+pandas
+requests
+sklearn
+string
+sumy
+wordcloud
+wordninja
